@@ -14,8 +14,6 @@ def execute(cmd):
     
     return output.decode()
 
-
-
 class NetCat:
     def __init__(self, args, buffer=None):
         self.args = args
@@ -94,8 +92,7 @@ class NetCat:
                     self.socket.close()
                     sys.exit()
                     
-
-
+                    
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser( 
